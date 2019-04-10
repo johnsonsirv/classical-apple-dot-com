@@ -6,6 +6,9 @@
 
 /* Header Section */
 
+body{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
 .wrapper {
 
 }
@@ -40,6 +43,12 @@ footer {
     border: solid 1px;
     width: 80%;
     margin: auto;
+    font-size: 0.8334em;
+    color: #6e6e6e;
+}
+footer a {
+    text-decoration: none;
+    color: #08c;
 }
 .footer-top-section{
     display: flex;
