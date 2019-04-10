@@ -38,11 +38,18 @@ main{
 /* Footer Section */
 footer {
     border: solid 1px;
+    width: 80%;
+    margin: auto;
 }
 .footer-top-section{
-
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;
+}
+.footer-nav img{
+    width: 20px; height: 20px;
 }
 
 .footer-bottom-section{
-    
+
 }
