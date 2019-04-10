@@ -11,10 +11,16 @@
 }
 .header-hero {
     border: solid 1px;
+    min-height: 60vh;
+    
+    /* background-image: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg'); */
+
 }
 
 nav {
-
+    border: solid 1px;
+    min-height: 12vh;
+    width: 34vw;
 }
 
 /* Main section */
@@ -22,13 +28,21 @@ main{
 
 }
 .featured-posts {
-    
+    margin-top:2px;
+    display: flex;
 }
 .featured-post-article{
-
+    margin: 2px;
 }
 
 /* Footer Section */
 footer {
+    border: solid 1px;
+}
+.footer-top-section{
 
+}
+
+.footer-bottom-section{
+    
 }
