@@ -10,7 +10,7 @@
 
 }
 .header-hero {
-
+    border: solid 1px;
 }
 
 nav {
@@ -22,10 +22,10 @@ main{
 
 }
 .featured-posts {
-
+    
 }
 .featured-post-article{
-    
+
 }
 
 /* Footer Section */
