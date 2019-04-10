@@ -2,7 +2,11 @@
 
 
 /* CSS Resets and Normalizers */
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 /* Header Section */
 
@@ -21,8 +25,9 @@ body{
 
 nav {
     border: solid 1px;
-    min-height: 12vh;
+    min-height: 8vh;
     width: 34vw;
+    margin: auto;
 }
 
 /* Main section */
@@ -33,6 +38,7 @@ main{
     margin-top:2px;
     display: flex;
     justify-content: center;
+    
 }
 
 .featured-articles-size {
