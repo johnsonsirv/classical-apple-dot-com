@@ -40,20 +40,25 @@ main{
 
 /* Footer Section */
 footer {
-    border: solid 1px;
     width: 80%;
     margin: auto;
     font-size: 0.8334em;
     color: #6e6e6e;
+    padding: 7px;
 }
 footer a {
     text-decoration: none;
     color: #08c;
+    padding: 3px;
+    border-right: solid 1px  #6e6e6e;;
+}
+footer a:hover {
+    text-decoration: underline;
 }
 .footer-top-section{
     display: flex;
     justify-content: space-between;
-    border: solid 1px;
+    
 }
 .footer-nav img{
     width: 15px; height: 15px;
