@@ -1,5 +1,9 @@
 /* Author */
-
+/* 
+    Name: Victor Okeugo
+    Description: Cascding Style sheet for the web page.
+    License: MIT
+*/
 
 /* CSS Resets and Normalizers */
 * {
@@ -30,6 +34,7 @@ nav {
     height: 4vh;
     width: 50vw;
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+    border-radius: 5px;
 }
  nav ul{
     width: 80%;
@@ -45,10 +50,10 @@ nav ul li{
     text-align: center;
     width: 100%;
     height: 100%;
-    padding: 5px;
+    padding: 9px;
 }
 nav ul li:hover{
-    background-image: linear-gradient(to right, #333131 10%, #252525, #2e2d2d 10%);
+    background-image: linear-gradient(to right, #333131 5%, #3f3e3e, #2e2d2d 5%);
     cursor: pointer;
 }
 nav a{
@@ -94,9 +99,30 @@ nav a{
 .banner-description {
    margin: auto;
    position: relative;
-   top: 18px;
-    border: solid 1px;
-    width: 45vw;
+   top: 7px;
+   border: solid 1px;
+   width: 50%;
+   height: 40%;
+   text-align: center;
+   color: #ffffff;
+   letter-spacing: 0.1em;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-description h2 {
+    font-weight: 100;
+    font-size: 3.6em;
+    line-height: 2em;
+}
+.banner-description p {
+    font-weight: 100;
+    font-size: 1.8em;
+    line-height: 1em;
+    
+}
+.banner-description h4 {
+    font-size: 2em;
+    font-weight: 100;
 }
 
 /* Main section */
@@ -150,7 +176,7 @@ footer a:hover {
     display: flex;
     align-items: center;
     margin: auto;
-      width: 70%;
+    width: 70%;
 }
 .flag-usa{
     width: 12px; height: 12px;
