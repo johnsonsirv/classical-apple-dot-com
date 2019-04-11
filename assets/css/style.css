@@ -17,16 +17,22 @@ body{
 
 }
 .header-hero {
-    min-height: 85vh;
+    /* min-height: 85vh; */
     background: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') 50% 100% no-repeat;
     margin: 0;
+    height: 85vh;
+    /* max-height: 85vh; */
+    width: 100%;
 }
 
 nav {
     border: solid 1px;
-    min-height: 8vh;
-    width: 34vw;
+    min-height: 4vh;
+    width: 50vw;
     margin: auto;
+}
+nav ul{
+    list-style-type: none;
 }
 
 .banner-description {
@@ -53,22 +59,22 @@ main{
     margin: 0.1em;
 }
 .featured-article-1{
-    background: url('https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg') no-repeat;
+    background: url('https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg') center no-repeat;
 }
 .featured-article-2{
-    background: url('https://web.archive.org/web/20140301004350im_/http://images.apple.com/home/images/promo_iphone5c.jpg') no-repeat;
+    background: url('https://web.archive.org/web/20140301004350im_/http://images.apple.com/home/images/promo_iphone5c.jpg') center no-repeat;
 }
 .featured-article-3{
-    background: url('https://web.archive.org/web/20140301004351im_/http://images.apple.com/home/images/promo_30_years.jpg') no-repeat;
+    background: url('https://web.archive.org/web/20140301004351im_/http://images.apple.com/home/images/promo_30_years.jpg') center no-repeat;
 }
 .featured-article-4{
-    background: url('https://web.archive.org/web/20140301004352im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg') no-repeat;
+    background: url('https://web.archive.org/web/20140301004352im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg') center no-repeat;
 }
 
 
 /* Footer Section */
 footer {
-    width: 70%;
+  
     margin: auto;
     font-size: 0.6334em;
     color: #6e6e6e;
@@ -76,6 +82,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
 
 }
 footer a {
@@ -92,13 +99,17 @@ footer a:hover {
 }
 .footer-top-section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin: auto;
+      width: 70%;
 }
 .flag-usa{
     width: 12px; height: 12px;
 }
 
 .footer-bottom-section{
+    margin: auto;
     margin-top: 0.8em;
+    width: 70%;
 }
