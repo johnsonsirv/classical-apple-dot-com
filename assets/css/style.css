@@ -126,7 +126,7 @@ nav a{
 }
 
 .banner-description h4:hover {
-   text-decoration: underline
+   text-decoration: underline;
 }
 
 .fa-play-circle{color: #fff8f8;font-size:1.2em;}
