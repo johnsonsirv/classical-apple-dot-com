@@ -13,36 +13,37 @@
 body{
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 }
-.wrapper {
 
-}
 .header-hero {
+    display: flex;
+    flex-direction: column;
     /* min-height: 85vh; */
     background: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') 50% 100% no-repeat;
-    margin: 0;
     height: 85vh;
     /* max-height: 85vh; */
     width: 100%;
+    border:  solid 1px;
 }
 
 nav {
     display: flex;
-    /* border: solid 1px; */
+    margin: auto;
+    margin-top: 24px;
     height: 4vh;
     width: 50vw;
-    margin: auto;
-    background-image: linear-gradient(
-        to bottom, rgb(155, 148, 148), rgb(92, 87, 87)
-    );
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 nav ul{
-    border: solid 1px;
     width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+   
 }
 nav li{
     list-style: none;
-    display: inline;
-    border-right: solid 1px;
+    border-right: solid 2px rgb(92, 91, 91);
+    font-size: 15px;
+   
 }
 nav a{
   text-decoration: none;
@@ -53,7 +54,6 @@ nav a{
     position: relative;
     left: 23px;
     top:3px;
-    filter: grayscale(100%);
 }
 .nav-search-form {
     width: 20%;
@@ -64,23 +64,20 @@ nav a{
     height: 25px;
     border-radius: 18px;
     border-style: groove ;
-    background: none;
+    background: transparent;
     padding-left: 18px;
     outline: 0;
-    border-color: rgb(155, 148, 148);
+    border-color: rgb(122, 119, 119);
 }
 .banner-description {
    margin: auto;
    position: relative;
-   top: 10vh;
+   top: 18px;
     border: solid 1px;
     width: 45vw;
 }
 
 /* Main section */
-main{
-
-}
 .featured-posts {
     margin-top:2px;
     display: flex;
