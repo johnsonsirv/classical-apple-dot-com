@@ -27,7 +27,7 @@ body{
 
 nav {
     display: flex;
-    border: solid 1px;
+    /* border: solid 1px; */
     height: 4vh;
     width: 50vw;
     margin: auto;
@@ -53,16 +53,21 @@ nav a{
     position: relative;
     left: 23px;
     top:3px;
+    filter: grayscale(100%);
 }
 .nav-search-form {
     width: 20%;
-    background: #fcfaface;
+    margin: auto;
 }
 .nav-search-form input{
     width: 100px;
     height: 25px;
     border-radius: 18px;
-    border-style: none;
+    border-style: groove ;
+    background: none;
+    padding-left: 18px;
+    outline: 0;
+    border-color: rgb(155, 148, 148);
 }
 .banner-description {
    margin: auto;
