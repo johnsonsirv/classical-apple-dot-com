@@ -1,7 +1,7 @@
 /* Author */
 /* 
     Name: Victor Okeugo
-    Description: Cascding Style sheet for the web page.
+    Description: Cascding Style sheet for the Apple.com Web page.
     License: MIT
 */
 
@@ -130,6 +130,8 @@ nav a{
 }
 
 .fa-play-circle{color: #fff8f8;font-size:1.2em;}
+
+
 /* Main section */
 .featured-posts {
     margin-top:2px;
