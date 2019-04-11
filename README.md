@@ -2,7 +2,7 @@
 
 In this project I cloned the website of one of the most design-forward companies in the world. It’s not a very complex site but it uses background photos well and the navbar at the top contains a gradient that I tried to mimic. 
 
-See the Archived @Apple Inc. website [Here](https://web.archive.org/web/20140301004610/http://www.apple.com "Apple Website"). This project was completed in line with standards provided by [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
+See the archived @Apple Inc. website [Here](https://web.archive.org/web/20140301004610/http://www.apple.com "Apple Website"). This project was completed in line with standards provided by [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
 
 ## Technologies
 
