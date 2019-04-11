@@ -25,6 +25,7 @@ body{
     background: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') 50% 100% no-repeat;
     max-height: 73vh;
     width: 100%;
+    cursor: pointer;
 }
 
 nav {
@@ -102,7 +103,7 @@ nav a{
    top: 7px;
    border: solid 1px;
    width: 50%;
-   height: 40%;
+   height: 50%;
    text-align: center;
    color: #ffffff;
    letter-spacing: 0.1em;
@@ -111,7 +112,7 @@ nav a{
 
 .banner-description h2 {
     font-weight: 100;
-    font-size: 3.6em;
+    font-size: 3.7em;
     line-height: 2em;
 }
 .banner-description p {
@@ -121,10 +122,11 @@ nav a{
     
 }
 .banner-description h4 {
-    font-size: 2em;
+    font-size:1.3em;
     font-weight: 100;
 }
 
+.fa-play-circle{color: #fff8f8;font-size:1.2em;}
 /* Main section */
 .featured-posts {
     margin-top:2px;
