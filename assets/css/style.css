@@ -101,7 +101,6 @@ nav a{
    margin: auto;
    position: relative;
    top: 7px;
-   border: solid 1px;
    width: 50%;
    height: 50%;
    text-align: center;
@@ -124,6 +123,10 @@ nav a{
 .banner-description h4 {
     font-size:1.3em;
     font-weight: 100;
+}
+
+.banner-description h4:hover {
+   text-decoration: underline
 }
 
 .fa-play-circle{color: #fff8f8;font-size:1.2em;}
