@@ -27,7 +27,7 @@ $ cd classical-apple-dot-com
 
 ## Deployment
 
-The live page can be found [HERE](https://johnsonsirv.github.io/classical-apple-dot-com/)
+See the live page [HERE](https://johnsonsirv.github.io/classical-apple-dot-com/)
 
 ## Contributors
 
